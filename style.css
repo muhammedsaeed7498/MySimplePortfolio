@@ -1,0 +1,657 @@
+
+@import "norm.css";
+
+body {
+    margin: 0;
+    background-color: #100a13;
+}
+
+.cont1 {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.sec1 {
+    z-index: 1;
+    background-color: #251633;
+    margin: 0;
+    position: fixed;
+    height: 40px;
+    display: flex;
+    width: 300px;
+    margin: 0px 0%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.b1 {
+    font-size: 13px;
+    color: white;
+    border: 1px solid rgb(46, 36, 90);
+    display: block;
+    text-align: center;
+    padding: 5px;
+    height: 13px;
+    width: 70px;
+    margin: 4px;
+    border-radius: 5px;
+}
+
+.b1:hover {
+    background-color: #b65353;
+    font-size: 13px;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    height: 18px;
+    width: 90px;
+    margin: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact {}
+
+.project {}
+
+.home {
+
+    text-align: center;
+    width: 60px;
+}
+
+.container {
+    position: relative;
+    top: 42px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.sec2 {
+
+    width: 700px;
+    background-color: #171321;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.sec2 img {
+    margin-top: 25px;
+    width: 90px;
+    border-radius: 100%;
+}
+
+.sec3 {
+
+
+    position: relative;
+
+    background-color: #171321;
+    height: 290px;
+    width: 700px;
+    text-align: center;
+
+}
+
+.sec3 p {
+    animation-duration: 2s;
+    animation-name: slidein1;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-size: 20px;
+    margin-left: 40px;
+    text-align: start;
+    color: whitesmoke;
+
+}
+
+#name1 {
+    color: #86fbfb;
+    font-family: 'Arima Madurai', cursive;
+    margin: 0% 18%;
+    animation: slidein2;
+    animation-duration: 2s;
+    font-size: 40px;
+}
+
+#hi {
+    animation-duration: 2s;
+    animation-name: slidein1;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+hr {
+    bottom: 0px;
+    position: absolute;
+    display: block;
+    width: 290px;
+    margin: 0px 29%;
+}
+
+.sec5 {
+    color: #86fbfb;
+    ;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    width: 700px;
+    height: 200px;
+    background-color: #171321;
+}
+
+.sec5 p {
+    position: absolute;
+    bottom: 2px;
+}
+
+.media {
+    width: 700px;
+    top: 0px;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    background-color: ;
+}
+
+.b2 {
+
+    position: absolute;
+    margin: 0px;
+    width: 50px;
+    top: 15px;
+    right: 15px;
+}
+
+.b3:hover {
+    cursor: pointer;
+    background: #b2a6cf;
+    top: 20px;
+    width: 80px;
+    ;
+}
+
+.b3 {
+    border-radius: 50%;
+    height: 80px;
+
+    top: 30px;
+    position: relative;
+    background: #171321;
+    margin: 7px;
+    width: 80px;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes slidein1 {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+}
+
+@keyframes slidein2 {
+    from {
+        margin-left: -100%;
+        width: 300%;
+    }
+
+
+}
+
+@media only screen and (max-width:450px) {
+    body {
+        margin: 0;
+        background-color: #100a13;
+    }
+
+    .cont1 {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        align-content: center;
+        justify-content: center;
+
+    }
+
+    .sec1 {
+        z-index: 1;
+        background-color: #251633;
+        margin: 0;
+        position: fixed;
+        height: 40px;
+        display: flex;
+        width: 300px;
+        margin: 0px 0%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .b1 {
+        font-size: 13px;
+        color: white;
+        border: 1px solid rgb(46, 36, 90);
+        display: block;
+        text-align: center;
+        padding: 5px;
+        height: 13px;
+        width: 70px;
+        margin: 4px;
+        border-radius: 5px;
+    }
+
+    .b1:hover {
+        background-color: #b65353;
+        font-size: 13px;
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        height: 18px;
+        width: 90px;
+        margin: 4px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .contact {}
+
+    .project {}
+
+    .home {
+
+        text-align: center;
+        width: 60px;
+    }
+
+    .container {
+        position: relative;
+        top: 42px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .sec2 {
+
+        width: 400px;
+        background-color: #171321;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .sec2 img {
+        
+        margin-top: 25px;
+        width: 90px;
+        border-radius: 100%;
+    }
+
+    .sec3 {
+
+
+        position: relative;
+
+        background-color: #171321;
+        height: 290px;
+        width: 400px;
+        text-align: center;
+
+    }
+
+    .sec3 p {
+        animation-duration: 2s;
+        animation-name: slidein1;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-size: 18px;
+        margin-left: 40px;
+        text-align: start;
+        color: whitesmoke;
+
+    }
+
+    #name1 {
+        color: #86fbfb;
+        font-family: 'Arima Madurai', cursive;
+        margin: 0% 18%;
+        animation: slidein2;
+        animation-duration: 2s;
+        font-size: 23px;
+    }
+
+    #hi {
+        animation-duration: 2s;
+        animation-name: slidein1;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    hr {
+        bottom: 0px;
+        position: absolute;
+        display: block;
+        width: 150px;
+        margin: 0px 30% ;
+    }
+
+    .sec5 {
+        color: #86fbfb;
+        
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        width: 400px;
+        height: 200px;
+        background-color: #171321;
+    }
+
+    .sec5 p {
+        position: absolute;
+        bottom: 2px;
+    }
+
+    .media {
+        width: 400px;
+        top: 0px;
+        position: absolute;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        
+    }
+
+    .b2 {
+
+        position: absolute;
+        margin: 0px;
+        width: 50px;
+        top: 15px;
+        right: 15px;
+    }
+
+    .b3:hover {
+        cursor: pointer;
+        background: #b2a6cf;
+        top: 20px;
+        width: 80px;
+        ;
+    }
+
+    .b3 {
+        border-radius: 50%;
+        height: 80px;
+
+        top: 30px;
+        position: relative;
+        background: #171321;
+        margin: 3.5px;
+        width: 80px;
+        ;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    @keyframes slidein1 {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+    }
+
+    @keyframes slidein2 {
+        from {
+            margin-left: -100%;
+            width: 300%;
+        }
+
+
+    }
+}
+@media only screen and (max-width:350px){
+
+    body{
+        margin: 0;
+    background-color: #100a13;
+    }
+    .cont1{
+        display: flex;
+        width: 100%;
+        align-content: center;
+         align-content: center;
+        justify-content: center;
+    
+    }
+    .sec1{
+        z-index: 1;
+        background-color: #251633;
+        margin:0; 
+        position:fixed;
+        height: 40px;
+        display: flex;
+        width:250px;
+        margin:0px 0% ;
+        align-items: center;
+        justify-content: center;
+        border-radius:5px ;
+       }
+    .b1 {
+        font-size:13px;
+        color:white;
+        border:1px solid rgb(46, 36, 90);
+        display: block;
+        text-align: center;
+        padding: 5px;
+        height: 13px;
+        width:65px;
+        margin: 4px;
+        border-radius:5px ;
+    }
+    .b1:hover {
+        background-color: #b65353;
+        font-size:13px;
+        color:white;
+        display: block;
+        text-align: center;
+        padding: 5px;
+        height: 16px;
+        width:70px;
+        margin: 4px;
+        border-radius:5px ;
+        cursor: pointer;
+    }
+    .contact{
+        
+       
+    }
+    .project{
+       
+    }
+    .home{
+        
+        text-align: center;
+        width: 60px;
+    }
+    .container{
+    position: relative;
+        top: 42px;
+        display: flex;
+        flex-direction: column;
+       align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+       
+    }
+    .sec2{
+    
+       width: 270px;
+        background-color: #171321;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .sec2 img{
+       margin-top: 25px;
+        width: 90px;
+        border-radius:100%;
+    }
+    .sec3{
+       
+       
+        position: relative;
+        
+        background-color: #171321;
+        height:290px;
+        width:270px;
+        text-align: center;
+        
+    }
+    .sec3 p{
+        
+        animation-duration: 2s;
+        animation-name: slidein1;
+        font-family: 'Zen Maru Gothic', sans-serif;
+        font-size:18px; 
+        margin-left: 10px;
+        text-align: start;
+        color:whitesmoke;
+        
+    }
+    #name1{
+        
+       color:#86fbfb ;
+        font-family: 'Arima Madurai', cursive;
+        margin:30px 10%;
+        animation: slidein2;
+        animation-duration:2s ;
+        font-size: 20px;
+        
+    }
+    #hi{
+        animation-duration: 2s;
+        animation-name: slidein1;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    hr{
+        bottom: 0px;
+        position:absolute;
+        display: block;
+        width:150px;
+        margin:0px 23%;
+    }
+    .sec5{ color:#86fbfb ;;
+        position: relative;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        width: 270px;
+        height:170px;
+        background-color: #171321;
+    }
+    .sec5 p{
+        position: absolute;
+        bottom: 2px;
+    }
+    
+    .media{
+        width: 270px;
+         top:0px;
+        position: absolute;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        display: flex;
+        
+    }
+    .b2{
+        
+        position: absolute;
+        width: 40px;
+        right:10px;
+        top:10px;
+    }
+    .b3:hover{
+        cursor: pointer;
+        background: #b2a6cf;
+        
+        top: 25x;
+        width: 60px;
+    }
+    .b3{border-radius: 50%;
+        height: 60px;
+         
+        position: relative;
+        background: #171321;
+       margin: 0px;
+        width: 60px;
+    }
+    a {
+      text-decoration: none;
+    }
+    @keyframes slidein1 {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+      }
+    
+      @keyframes slidein2 {
+        from {
+          margin-left: -100%;
+          width: 300%;
+        }
+      
+}
+}
