@@ -354,12 +354,7 @@ a {
         font-size: 23px;
     }
 
-    #hi {
-        animation-duration: 2s;
-        animation-name: slidein1;
-        margin-left: 15px;
-        font-size: 15px;
-    }
+    
 
     hr {
         bottom: 0px;
