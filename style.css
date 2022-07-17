@@ -568,7 +568,7 @@ a {
         
        color:#86fbfb ;
         font-family: 'Arima Madurai', cursive;
-        margin:30px 10%;
+        margin:40px 10%;
         animation: slidein2;
         animation-duration:2s ;
         font-size: 20px;
@@ -577,7 +577,7 @@ a {
     #hi{
         animation-duration: 2s;
         animation-name: slidein1;
-        margin-left: 10px;
+        margin-left:15px;
         font-size: 15px;
     }
     hr{
